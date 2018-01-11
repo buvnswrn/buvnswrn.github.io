@@ -1,0 +1,325 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin:0px;
+}
+#header{
+    /* height: 65px; */
+    background-color: black;
+    color: white;
+    width:100VW;
+    position:fixed;
+    z-index: 1;
+    /* margin: 2px; */
+    /* padding-top: 25px; */
+    /* padding-left: 50px; */
+    padding: 20px;
+    /* margin: -10px; */
+    top:0;
+    left:0;
+    box-sizing: border-box;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50;
+    font-weight:200;
+    padding-left: 50px;
+    padding-top: 15px;
+    float: left;
+}
+.lastname{
+    font-weight:700;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50;
+    font-weight:300;
+    padding-top: 15px;
+    float:left;
+    width:15px;
+    margin:0;
+}
+.menu-item{
+    text-decoration: none;
+    width:75px;
+    height:28px;
+    float:right;
+    margin-top:40px;
+    margin-left:10px;
+    font-weight:100;
+    right:0;
+    border:hidden white 1px;
+    text-align: center;
+    padding-top:10px;
+    color:white;
+}
+.menu-item:hover{
+    cursor:pointer;
+    border:solid white 1px;
+}
+.active{
+    border:solid white 1px;
+}
+.body-text{
+    padding-left:200px;
+    font-size:100px;
+    text-align:start;
+    font-weight:900;
+}
+.body-text:nth-child(2){
+    margin-top:-100px;
+    font-weight: 300;
+}
+.body-text:nth-child(3){
+    font-size:75px;
+    font-weight: 100;
+}
+/* body{
+    background-image:url(img/bhuvan.JPG);
+} */
+.content:before{
+    background-image: url(../img/bhuvan.JPG);
+    background-size: 1072px;
+    background-repeat: unset;
+    background-color: #D5C9D3;
+    background-position-x: 280px;
+    position:absolute;
+    content:"";
+    display:block;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(0.65px);
+}
+.content{
+    position: relative;
+    padding: 86px;
+    height: 75%;
+    
+    /* margin-left: -10px;
+    margin-right: -11px; */
+    border-bottom: solid black 2px;
+    margin-top: 10px;
+}
+.content p{
+    /* background: rgba(255, 255, 255, 0.3); */
+    COLOR: #FFF;
+}
+.aboutpage-content{
+    position: relative;
+    padding: 135px;
+    padding-bottom:10px;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.aboutpage-content p{
+border-bottom:solid black 1px;
+}
+.about{
+    padding: 15px;
+    width: 245px;
+    font-size: 25px;
+    font-weight: 100;
+    border: solid black 1px;
+    margin-top: -90px;
+    margin-bottom: 64px;
+}
+.about:hover{
+    cursor:pointer;
+    color:white;
+    background-color: black;
+}
+.about-content{
+    word-wrap: break-word;
+    overflow: hidden;
+    clear:right;
+    float:left;
+    border:solid black 0.5px;
+    margin-left: 10%;
+    width: 20%;
+    height: 300px;
+    background-color:rgba(255,255,255,0.7);
+    margin-top: 4%;
+    padding:20px;
+    padding-bottom:15px;
+    font-size: 1.2em;
+}
+.about-content span{
+border-bottom: solid black 1px;
+text-align: center;
+font-size: 40px;
+font-weight:300;
+}
+.about-me{
+height:auto;
+overflow: hidden; 
+}
+.body-content{
+    overflow: hidden;
+    margin: 10px;
+    height: auto;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin-top:20px;
+    clear: both;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+}
+.social{
+    margin-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    float: right;
+    font-size:15px;
+    font-weight:100;
+    font-family: 'Roboto', sans-serif;
+    padding-left:20px;
+    width:65px;
+}
+.fb:hover{
+    border-bottom: solid blue 2px;
+}
+.insta:hover{
+    border-bottom: solid magenta 2px;
+}
+.twitter:hover{
+    border-bottom: solid skyblue 2px;
+}
+.github:hover{
+    border-bottom: solid white 2px;
+}
+.linkedin:hover{
+    border-bottom: solid #0077B5 2px;
+}
+.phone{
+    margin-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+    float: right;
+    font-size:15px;
+    font-weight:100;
+    font-family: 'Roboto', sans-serif;
+    padding-left:20px;
+    width:auto;
+}
+.get {
+	display:none;
+}
+
+#diagram {
+	float:left;
+	width:600px;
+	height:600px;
+}
+.Bar{
+    
+    padding-top: 10px;
+    /* padding: 0px; */
+    padding-left: 14px;
+    /* width:100%; */
+    height:45px;
+    position: absolute;
+    
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position:  relative;
+    /* margin-left: 10%; */
+    margin: 10px;
+    margin-left: 15%;
+    height: 29px;
+    font-size: 15px;
+    animation:Animate-HTML 4s;
+    -webkit-animation: Animate-HTML 4s;
+    -moz-animation: Animate-HTML 4s;
+    -o-animation: Animate-HTML 4s;
+}
+#Skill-HTML{
+background-color: #f9690e;
+width: 61.2%;
+}
+#Skill-CSS{
+    background-color: #5DB863;
+    width: 47.6%;
+    }
+#Skill-Java{
+    background-color: #FFBD33;
+    width: 54.6%;
+    }
+#Skill-C{
+    background-color: #75FF33;
+    width: 54.6%;
+    }
+#Skill-Cpp{
+    background-color: #5C20F1;
+    width: 40.8%;
+    }
+#Skill-Cs{
+    background-color: #C420F1;
+    width: 34%;
+    }
+#Skill-Python{
+    background-color: #F1204D;
+    width: 47.6%;
+    }
+#Skill-Php{
+    background-color: #F120B5;
+    width: 40.8%;
+    }
+#Skill-Mongo{
+    background-color: rgb(32, 157, 241);
+    width: 40.8%;
+    }
+#Skill-MySQL{
+    background-color: #20CEF1;
+    width: 54.6%;
+    }
+#Skill-JS{
+    background-color: #F1F120;
+    width: 34%;
+    }
+#Skill-Unity{
+    background-color: #20F120;
+    width: 20.4%;
+    }
+
+
+
+
+
+
+@keyframes Animate-HTML {
+    a from {width: 10%;}
+    to {width: 68%}
+    }
+    a from {width: 68%;}
+    to {wi}
+    @-webkit-keyframes Animate-HTML {
+    from {width: 10%;}
+    to {width: 68%}
+    }
+    @-moz-keyframes Animate-HTML {
+    from {width: 10%;}
+    to {width: 68%}
+    }
+    @-o-keyframes Animate-HTML {
+    from {width: 10%;}
+    to {width: 68%}
+    }

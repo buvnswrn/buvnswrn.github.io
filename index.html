@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>
+            Bhuvanesh's Website
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700,100,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="img/beta.png"/>
+    </head>
+    <body>
+        <div id="header">
+            <div id="header-content">
+            <div class="name">
+                Bhuvaneshwaran
+            </div>
+            <div class="lastname">
+                I
+            </div>
+            <div id="menu">
+                <a class="menu-item pageload-link" href="index.html">Contact</a>
+                <a class="menu-item" href="#">Resume</a>
+                <a class="menu-item"href="#">Portfolio</a>
+                <a class="menu-item" href="about.html">About</a>
+                <a class="menu-item active" href="index.html">Home</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="content">
+            <p class="body-text">
+                Hey !
+            </p>
+            <p class="body-text">
+                I'm Bhuvan.
+            </p>
+            <center><a class="about" id="knowaboutme"> Who Am I ?</a></center>
+            <!-- <img src="img/bhuvan.jpg"/> -->
+
+        </div>
+        <div class="body-content">
+        <div class="about-me" id="about">
+            <div class="body-text" style="font-weight: 100; font-size:75px; text-align:center; padding-left:0px;">I am a...</div>
+            <div class="about-content">
+                <span>Software Programmer</span>
+                <p>I love to Code a lots and have been proficient in languages like C,Java,Python.
+                I have high passionate drive towards technology and explore various technologies that are new to Tech World.</p>
+            </div>
+            <div class="about-content">
+                <span>Web Developer</span>
+                <p>I love to develop websites that are similar to this.
+                    I work with latest technologies such as HTML5,CSS3,jQuery,Bootstrap etc.. where few are implemented in this website. </p>
+            </div>
+            <div class="about-content">
+                    <span>Social Worker</span>
+                    <p>Apart from the above mentioned characteristics i love to engage myself in social activities.
+                        Now i am a part of a NGO named <a style="text-decoration: None; Color:red;cursor:pointer;" href="makeadiff.in">Make A Difference </a> as an Academic Support Volunteer.
+                            I spend my time useful during weekends for the society by engaging in activities like these.
+                    </p>
+             </div>    
+            <div class="about-content">
+                    <span>Limner</span>
+                    <p>Drawing is one of my favorite during both my high schools and college.
+                        I love to draw whenever i feel exhausted,happy or relevent feelings.
+                    I am not a best one in this field but not the worst either.  </p>
+            </div>
+            <div class="about-content">
+                   <span>Learner</span>
+                   <p>I love learning new things that may or may not be related to my career.
+                       I play around with newer technologies and get a introductory knowledge in them.Apartfrom these i love to experience things that help me make a step forward in my life.</p>
+            </div>    
+            
+        </div>
+    </div>
+        <div class="footer">
+            Find Me on:
+            <div class="social"><a class="fb" href="https://www.facebook.com/bhuvan.skullbreaker" target="_blank">FACEBOOK</a></div>
+            <div class="social"><a class="insta" href="https://www.instagram.com/_bhuvaneshwar_/" target="_blank" >INSTAGRAM</a></div>
+            <div class="social"><a class="twitter" href="https://twitter.com/bhuvan_nav"  target="_blank">TWITTER</a></div>
+            <div class="social"><a class="github" href="https://github.com/buvnswrn" target="_blank" >GITHUB</a></div>
+            <div class="social"><a class="linkedin" href="https://www.linkedin.com/in/buvnswrn"  target="_blank">LINKEDIN</a></div>
+            <div class="phone">Contact : +91 9688158056</div>
+        </div>
+    </body>
+    <script>
+        $("#knowaboutme").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#about").offset().top
+            }, 2000);
+            return false;
+        });
+    </script>
+</html>
