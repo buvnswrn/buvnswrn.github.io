@@ -95,8 +95,8 @@ body{
 }
 .content{
     position: relative;
-    padding: 86px;
-    height: 75%;
+    padding: 9%;
+    height: auto;
     
     /* margin-left: -10px;
     margin-right: -11px; */
