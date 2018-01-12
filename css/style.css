@@ -256,6 +256,10 @@ overflow: hidden;
     -moz-animation: Animate-HTML 4s;
     -o-animation: Animate-HTML 4s;
 }
+.Bar:hover{
+    z-index: 2;
+    box-shadow: 0px 5px #8888;
+}
 #Skill-HTML{
     background-color: #f9690e;
     width: 61.2%;
