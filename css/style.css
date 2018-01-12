@@ -176,7 +176,7 @@ overflow: hidden;
 }
 .social a{
     text-decoration: none;
-    color: white;
+    color:white;
 }
 .social{
     margin-left: 20px;
@@ -207,6 +207,7 @@ overflow: hidden;
     border-bottom: solid #0077B5 2px;
 }
 .phone{
+    
     margin-left: 20px;
     padding-right: 20px;
     text-decoration: none;
@@ -219,6 +220,10 @@ overflow: hidden;
     padding-left:20px;
     width:auto;
 }
+.phone a{
+    text-decoration: none;
+    color:white;
+}
 .get {
 	display:none;
 }
@@ -229,7 +234,7 @@ overflow: hidden;
 	height:600px;
 }
 .Bar{
-    
+    color: white;
     padding-top: 10px;
     /* padding: 0px; */
     padding-left: 14px;
@@ -252,53 +257,53 @@ overflow: hidden;
     -o-animation: Animate-HTML 4s;
 }
 #Skill-HTML{
-background-color: #f9690e;
-width: 61.2%;
-}
-#Skill-CSS{
-    background-color: #5DB863;
-    width: 47.6%;
+    background-color: #f9690e;
+    width: 61.2%;
     }
-#Skill-Java{
-    background-color: #FFBD33;
-    width: 54.6%;
-    }
-#Skill-C{
-    background-color: #75FF33;
-    width: 54.6%;
-    }
-#Skill-Cpp{
-    background-color: #5C20F1;
-    width: 40.8%;
-    }
-#Skill-Cs{
-    background-color: #C420F1;
-    width: 34%;
-    }
-#Skill-Python{
-    background-color: #F1204D;
-    width: 47.6%;
-    }
-#Skill-Php{
-    background-color: #F120B5;
-    width: 40.8%;
-    }
-#Skill-Mongo{
-    background-color: rgb(32, 157, 241);
-    width: 40.8%;
-    }
-#Skill-MySQL{
-    background-color: #20CEF1;
-    width: 54.6%;
-    }
-#Skill-JS{
-    background-color: #F1F120;
-    width: 34%;
-    }
-#Skill-Unity{
-    background-color: #20F120;
-    width: 20.4%;
-    }
+    #Skill-CSS{
+        background-color: #556B2F;
+        width: 47.6%;
+        }
+    #Skill-Java{
+        background-color: #FFA500;
+        width: 54.6%;
+        }
+    #Skill-C{
+        background-color: #8b0000;
+        width: 54.6%;
+        }
+    #Skill-Cpp{
+        background-color: #5C20F1;
+        width: 40.8%;
+        }
+    #Skill-Cs{
+        background-color: #9400D3;
+        width: 34%;
+        }
+    #Skill-Python{
+        background-color: #F1204D;
+        width: 47.6%;
+        }
+    #Skill-Php{
+        background-color: #F120B5;
+        width: 40.8%;
+        }
+    #Skill-Mongo{
+        background-color: #6495ED;
+        width: 40.8%;
+        }
+    #Skill-MySQL{
+        background-color: #1E90FF;
+        width: 54.6%;
+        }
+    #Skill-JS{
+        background-color: #800000;
+        width: 34%;
+        }
+    #Skill-Unity{
+        background-color: #32CD32;
+        width: 20.4%;
+        }
 
 
 
