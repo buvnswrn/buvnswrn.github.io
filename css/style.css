@@ -10,7 +10,7 @@ body{
     color: white;
     width:100VW;
     position:fixed;
-    z-index: 1;
+    z-index: 3;
     /* margin: 2px; */
     /* padding-top: 25px; */
     /* padding-left: 50px; */
@@ -307,10 +307,102 @@ overflow: hidden;
         background-color: #32CD32;
         width: 20.4%;
         }
-
-
-
-
+.work-tile{
+    position:relative; 
+    overflow:hidden;
+    clear: right;
+    float: left;
+    height: 350px;
+    /* padding: 100px; */
+    /* background-color: forestgreen; */
+    width: 49.8%;
+    /* margin-left: 1%; */
+    margin: 1px;
+    /* margin-top: 30px; */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  .work-tile:hover .overlay{
+      display: block;
+      background: rgba(0, 0, 0, .3);
+  }
+  .work-tile:hover .desc-text{
+      opacity:1;
+      left:210px
+  }
+  .work-tile:hover .desc-link{
+      opacity:1;
+      bottom:125px;
+  }
+.work-tile img{
+    left:0;
+    position:absolute; 
+    z-index: 0;
+    width:100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.7);
+    /* transform: rotate(-1deg); */
+}
+.work-tile img:hover{
+    transform:rotate(-5deg);
+}
+/* .p-content{
+    padding-bottom:10px;
+    overflow:hidden;
+} */
+.cat-text{
+    padding-right: 8px;
+    height: auto;
+    width: auto;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #A9A9A9;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    opacity: 0.7;
+    z-index: 2;
+}
+.desc-text{
+    position: absolute;
+    top: 120px;
+    left:0;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    transition: left .35s ease;
+    opacity: 0;
+}
+.desc-link{
+    position: absolute;
+    width: 49.8%;
+    left:160px;
+    bottom:0;
+    text-align: center;
+    opacity: 0;
+    transition: bottom .35s ease;
+}
+.desc-link a{
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+}
 
 
 @keyframes Animate-HTML {
