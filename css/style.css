@@ -28,6 +28,10 @@ body{
     padding-top: 15px;
     float: left;
 }
+.beta{
+    font-weight:700;
+    font-size: 50;
+}
 .lastname{
     font-weight:700;
     padding-left: 10px;
