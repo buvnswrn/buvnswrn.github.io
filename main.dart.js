@@ -43210,7 +43210,7 @@ a1===$&&A.a()
 p=t.kK
 o=j.e
 n=t.p
-o=A.ao6(A.ba(A.b([A.hT(s,1,30,"I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building frontend (mobile & web) and backend applications. I occasionally work as a tech consultant and I am enthusiastic about Devops & Cloud computing technologies.",i,a,q),A.hT(s,1,30,"I have a Masters in IT from Universit\xe4t des Saarlandes where I majored in Data science and Artificial Intelligence. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with clients all over the world.",i,a,q),A.hT(s,1,30,"I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music, a big fan of poetry & I love travelling.",i,a,q)],n),B.x,B.o,B.p),o,i,i,"/01 ","Story".toUpperCase(),"A little bit about myself.",h)
+o=A.ao6(A.ba(A.b([A.hT(s,1,30,"I am full stack software engineer with great passion for building high quality applications. I have an extensive experience building AI and Web applications. I occasionally work as a tech consultant and I am enthusiastic about AI/MLOps & Cloud computing technologies.",i,a,q),A.hT(s,1,30,"I have a Masters in Data Science and Artificial Intelligence from Universit\xe4t des Saarlandes. I have strong technical skills as well as excellent interpersonal skills, which has enabled me to work & interact with colleagues from all over the world.",i,a,q),A.hT(s,1,30,"I am very great at finding solutions to problems and I have a very keen eye for details. I enjoy building fun/useful projects in my free time and open sourcing them. I am an avid reader, lover of all forms art & music & I love travelling.",i,a,q)],n),B.x,B.o,B.p),o,i,i,"/01 ","Story".toUpperCase(),"A little bit about myself.",h)
 m=j.f
 a=A.ba(A.b([A.hT(r,1,12,"I use a number of tools to aid my creative process when bringing things to life. Listed below are the tools and technologies that I have used over the years.",i,a,q)],n),B.x,B.o,B.p)
 l=j.w
@@ -43223,9 +43223,9 @@ k=j.r
 a0=A.ao6(a,m,A.ba(A.b([new A.hD(i),A.c4(B.e,k,B.A,1,1,"Email.",i,a2,1/0,1),new A.hD(i),A.jX(k,B.A,!1,!0,B.e,!1,!0,2,1,i,new A.acQ(),"buvnswrn@gmail.com",a0,1/0)],n),B.H,B.o,B.p),i,"/03 ","Contact".toUpperCase(),"Social.",h)
 k=j.x
 k===$&&A.a()
-m=A.c4(B.e,k,B.A,1,5,"\u201cI have no special talents. I am only passionately curious.\u201d",B.al,a2==null?i:a2.acX(A.aA(a3,24,36,28,i),2),h,1)
+m=A.c4(B.e,k,B.A,1,5,"\u201cDream, Dream, Dream. Dreams transform into thoughts and thoughts results in action.\u201d",B.al,a2==null?i:a2.acX(A.aA(a3,24,36,28,i),2),h,1)
 k=j.x
-return A.rW(B.e,i,A.rB(A.b([new A.cG(new A.ag(g,e,f,0),A.qL(A.ba(A.b([new A.FV(h,a1,i),new A.cO(0.1,i),new A.fz(new A.acR(j,a3),o,new A.bR("story-section",p)),new A.cO(0.1,i),new A.fz(new A.acS(j),l,new A.bR("technology-section",p)),new A.cO(0.1,i),new A.fz(new A.acT(j),a0,new A.bR("contact-section",p)),new A.cO(0.1,i),new A.fz(new A.acU(j),A.ba(A.b([m,new A.de(i),new A.cm(B.dk,i,i,A.c4(B.e,k,B.A,1,1,"\u2014 Albert Einstein",i,b?i:c.di(B.aw,A.aA(a3,16,18,16,i),B.m),1/0,1),i)],n),B.x,B.o,B.p),new A.bR("quote-section",p)),new A.cO(0.2,i)],n),B.x,B.o,B.p),h),i),A.Y2()],n),i,B.at,B.c7),B.cR,!0,!0,a1,B.e,B.aw,new A.acV(j),"About","/about")},
+return A.rW(B.e,i,A.rB(A.b([new A.cG(new A.ag(g,e,f,0),A.qL(A.ba(A.b([new A.FV(h,a1,i),new A.cO(0.1,i),new A.fz(new A.acR(j,a3),o,new A.bR("story-section",p)),new A.cO(0.1,i),new A.fz(new A.acS(j),l,new A.bR("technology-section",p)),new A.cO(0.1,i),new A.fz(new A.acT(j),a0,new A.bR("contact-section",p)),new A.cO(0.1,i),new A.fz(new A.acU(j),A.ba(A.b([m,new A.de(i),new A.cm(B.dk,i,i,A.c4(B.e,k,B.A,1,1,"\u2014 Dr. A.P.J Abdul Kalam ",i,b?i:c.di(B.aw,A.aA(a3,16,18,16,i),B.m),1/0,1),i)],n),B.x,B.o,B.p),new A.bR("quote-section",p)),new A.cO(0.2,i)],n),B.x,B.o,B.p),h),i),A.Y2()],n),i,B.at,B.c7),B.cR,!0,!0,a1,B.e,B.aw,new A.acV(j),"About","/about")},
 Z7(a){var s,r,q,p,o,n=null,m=this.c
 m.toString
 m=A.Q(m).p3.y
@@ -43322,7 +43322,7 @@ p.b=!0
 p.a.push(q.gpZ())
 l.push(new A.po(d,o,new A.nx(q,r,1,m,o,1/0,1,o),o))}return l}}
 A.aaW.prototype={
-$2(a,b){var s,r,q,p,o,n,m,l=null,k="Web / Cloud / Design Technologies",j=b.c.a
+$2(a,b){var s,r,q,p,o,n,m,l=null,k="Web /Data Technologies",j=b.c.a
 A.h1()
 s=this.a
 r=this.b
@@ -43333,7 +43333,7 @@ n=s.d
 if(j<768)return A.ba(A.b([A.c4(B.e,o,B.A,1,1,k,l,r,j,1),new A.de(l),A.l6(s.tQ(a,o,q,j),B.b3,0,20),new A.hD(l),A.c4(B.e,o,B.A,1,1,k,l,r,j,1),new A.de(l),A.l6(s.tQ(a,o,$.asb,n*0.3),B.ab,20,n*0.1/3)],p),B.H,B.o,B.p)
 else{m=n*0.25
 n*=0.75
-return A.cj(A.b([A.ad(l,A.ba(A.b([A.c4(B.e,o,B.A,1,1,"Mobile Technologies",l,r,m,1),new A.de(l),A.l6(s.tQ(a,o,q,m),B.b3,0,20)],p),B.H,B.o,B.p),B.i,l,l,l,l,l,l,l,l,l,l,m),A.r5(A.ad(l,A.ba(A.b([A.c4(B.e,o,B.A,1,1,k,l,r,n,1),new A.de(l),A.l6(s.tQ(a,o,$.asb,(n-60)/5),B.ab,20,20)],p),B.H,B.o,B.p),B.i,l,l,l,l,l,l,l,l,l,l,n),1)],p),B.H,B.o,B.ah,l)}},
+return A.cj(A.b([A.ad(l,A.ba(A.b([A.c4(B.e,o,B.A,1,1,"AI Technologies",l,r,m,1),new A.de(l),A.l6(s.tQ(a,o,q,m),B.b3,0,20)],p),B.H,B.o,B.p),B.i,l,l,l,l,l,l,l,l,l,l,m),A.r5(A.ad(l,A.ba(A.b([A.c4(B.e,o,B.A,1,1,k,l,r,n,1),new A.de(l),A.l6(s.tQ(a,o,$.asb,(n-60)/5),B.ab,20,20)],p),B.H,B.o,B.p),B.i,l,l,l,l,l,l,l,l,l,l,n),1)],p),B.H,B.o,B.ah,l)}},
 $S:83}
 A.nK.prototype={
 a2(){return new A.P2(null,null,B.l)}}
@@ -87407,8 +87407,8 @@ $.awF=A.C(t.C_,t.e)
 $.Xr=!1
 $.alV=!0
 $.Xc=null
-$.aC9=A.b(["Android","Kotlin","Jetpack Compose","Flutter","DartJava Android"],t.s)
-$.asb=A.b(["HTML 5","CSS 3","JavaScript","Typescript","React JS","Next JS","Node JS","Git","AWS","Docker","Kubernetes","Google Cloud","Azure","Travis CI","Circle CI","Express","Chakra UI","Laravel","PHP","SQL","C++","Firebase","Figma","Adobe XD","Wordpress"],t.s)
+$.aC9=A.b(["PyTorch","OpenCV/ PIL","NumPy /  Pandas","MatplotLib / Seaborn","RDF4J / SPARQL","Unity 3D"],t.s)
+$.asb=A.b(["Python","Java","C#","C++",".NET","SQL","HTML 5","CSS 3","JavaScript","Spring","Fast API","Angular","Git","Docker","GitHub Actions","MQTT","Apache Kafka","Apache Avro","Hadoop","Apache Pig/ Hive","Apache Spark","Basys","OPC UA","Camunda","Apache Tomcat","Apache Maven","CMake","Snoflake","HBase","MongoDB","MySQL","IBM DB2","Oracle DB","Google Cloud"],t.s)
 $.aDi=A.aJP()
 $.aop=0
 $.IA=A.b([],A.a6("w<aNP>"))
